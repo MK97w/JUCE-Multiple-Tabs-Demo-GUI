@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="UfT5Gt" name="Multiple_Tab_Demo" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="iX0VcZ" name="Multiple_Tab_Demo">
+    <GROUP id="{AD84A046-19B8-3B2F-7582-A629A3D5C70E}" name="Assets">
+      <FILE id="Zk7MAY" name="autumn.jpg" compile="0" resource="1" file="Assets/autumn.jpg"/>
+      <FILE id="WAeaWT" name="spring.jpg" compile="0" resource="1" file="Assets/spring.jpg"/>
+      <FILE id="NrLvSu" name="summer.jpg" compile="0" resource="1" file="Assets/summer.jpg"/>
+      <FILE id="Fyfpy5" name="winter.jpg" compile="0" resource="1" file="Assets/winter.jpg"/>
+    </GROUP>
+    <GROUP id="{CEB1AEC0-283F-5A90-C8B0-B1A4B2955255}" name="Source">
+      <FILE id="GkPi2x" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="mpXk9c" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="wxD2Tg" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Multiple_Tab_Demo"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Multiple_Tab_Demo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Multiple_Tab_Demo"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Multiple_Tab_Demo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
