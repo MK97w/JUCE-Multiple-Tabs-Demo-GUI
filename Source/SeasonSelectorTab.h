@@ -20,7 +20,7 @@ namespace juce
         SeasonSelectorTab(): TabbedComponent (TabbedButtonBar::TabsAtTop)
         {
             //auto colour = findColour (ResizableWindow::backgroundColourId);
-            auto colour = Colours::black;
+            auto colour = Colours::transparentBlack;
             
             addTab ("Winter",     colour, new WinterPage(),                                 true);
             addTab ("Spring",     colour, new SpringPage(),                                 true);
@@ -28,7 +28,9 @@ namespace juce
             addTab ("Autumn",     colour, new AutumnPage(),                                 true);
             
             setOutline(0);
-            setIndent(500);
+            //setSize(230, 300);
+            setBounds(525, 0, 230, 300);
+            //setLookAndFeel(<#LookAndFeel *newLookAndFeel#>)
         };
     private:
         struct WinterPage: public Component{};

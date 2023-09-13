@@ -27,5 +27,4 @@ void MainComponent::resized()
     // If you add any child components, this is where you should
     // update their positions.
     
-    tabs.setBounds (getLocalBounds());
 }
