@@ -10,6 +10,8 @@
       <FILE id="Fyfpy5" name="winter.jpg" compile="0" resource="1" file="Assets/winter.jpg"/>
     </GROUP>
     <GROUP id="{CEB1AEC0-283F-5A90-C8B0-B1A4B2955255}" name="Source">
+      <FILE id="bi2kag" name="SeasonSelectorTab.h" compile="0" resource="0"
+            file="Source/SeasonSelectorTab.h"/>
       <FILE id="GkPi2x" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="mpXk9c" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="wxD2Tg" name="MainComponent.cpp" compile="1" resource="0"

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "SeasonSelectorTab.h"
 
 //==============================================================================
 /*
@@ -22,6 +23,6 @@ private:
     //==============================================================================
     // Your private member variables go here...
 
-
+    juce::SeasonSelectorTab tabs;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
