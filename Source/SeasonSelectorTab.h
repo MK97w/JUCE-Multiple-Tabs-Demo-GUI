@@ -28,8 +28,10 @@ namespace juce
             addTab ("Autumn",     colour, new AutumnPage(),                                 true);
             
             setOutline(0);
-            //setSize(230, 300);
-            //setBounds(523, 0, 232, 300);
+            setTabBarDepth(50);
+            setSize(1280, 800);
+            //setBounds(0, 0, 1280, 800);
+            //setIndent(110);
             //setBounds(getLocalBounds());
             //setLookAndFeel(LookAndFeel *newLookAndFeel)
         };
