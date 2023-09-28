@@ -3,7 +3,7 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
-    setSize (1280, 800);
+    setSize (1310, 800);
     addAndMakeVisible (tabs);
 }
 

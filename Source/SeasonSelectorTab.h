@@ -22,14 +22,15 @@ namespace juce
             //auto colour = findColour (ResizableWindow::backgroundColourId);
             auto colour = Colours::transparentBlack;
             
-            addTab ("Winter",     colour, new WinterPage(),                     true);
+            addTab ("Winter",     colour, new WinterPage(),                                 true);
             addTab ("Spring",     colour, new SpringPage(),                                 true);
             addTab ("Summer",     colour, new SummerPage(),                                 true);
             addTab ("Autumn",     colour, new AutumnPage(),                                 true);
             
             setOutline(0);
-            setTabBarDepth(50);
-            setSize(1280, 800);
+            setOpaque(true);
+            setTabBarDepth(30);
+            setSize(1310, 800);
             //setBounds(0, 0, 1280, 800);
             //setIndent(110);
             //setBounds(getLocalBounds());
